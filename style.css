@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+/* heading */
+#heading{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.head-img{
+    width: 25%;
+}
+
+.exp{
+    background-color: rgb(201, 12, 12);;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 20%;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 0.5%;
+    font-size: 1.5rem;
+}
+
+
+.exp:hover{
+    background-color: rgb(250, 55, 55);
+}
+
+.abt{
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    background-color: rgb(241, 241, 241);
+    margin: 0 0 4% 0;
+    height: 50px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+/* navbar */
+
+.nav-image{
+    width: 40px;
+}
+
+ul{
+    text-align: center;
+}
+
+h3{
+    margin: 0 25%;
+    text-align: left;
+}
+
+.menu{
+    border: none;
+    outline: none;
+}
+
+/* subscribe button */
+
+.sub{
+    border-radius: 10px;
+    background-color: rgb(201, 12, 12);
+    font-weight: 600;
+}
+
+.sub:hover{
+    background-color: rgb(250, 55, 55);
+    
+}
+
+.sub a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sub a:hover{
+    color: #fff;
+}
+
+/* latest video */
+
+#latest{
+    text-align: center;
+    margin: 7% 2%;
+}
+
+.vid-info{
+    margin: 0 20%;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 0;
+
+}
+
+
+.vid-btn{
+    background-color: rgb(201, 12, 12);;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 20%;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 2% 0 0 0;
+    padding: 0.5%;
+    font-size: 1.5rem;
+}
+
+.vid-btn:hover{
+    background-color: rgb(250, 55, 55);
+    color: #fff;
+}
+
+.vid-title{
+    padding: 2% 0;
+}
+
+.vid{
+    border: none;
+    border-radius: 0;
+}
+
+/* footer */
+
+#footer{
+    background-color: rgb(75, 73, 73);
+    color: aliceblue;
+    padding: 3% 0 0 0;
+    margin: 15% 0 0 0;
+    text-align: center;
+}
+
+.footer-img{
+    padding: 0 6px 10px 6px;
+    margin: 1.2%;
+}
+
+.footer-txt{
+    margin: 0;
+    color: rgb(136, 136, 136);
+    text-align: center;
+}
+
+.footer-links a{
+    color: #fff;
+}
+
+
+/* reponsive */
+
+@media (max-width: 756px) {
+
+    .iframe{
+        width: 250px;
+    }
+
+    .para{
+        margin: 0 0 16px 0;
+    }
+
+    .vid-info{
+        margin: 5% 1% 2.5% 0;
+
+    }
+    .vid-btn{
+        width: 50%;
+        margin: 3%;
+
+    }
+
+    .latest-vid{
+        width: 400px;
+    }
+
+    .exp{
+        width: 40%;
+        margin-top: 5%;
+    }
+
+    h3{
+        margin: 0 15%;
+    }
+
+    .head-img{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1080px) {
+
+    .iframe{
+        width: 250px;
+    }
+
+    .para{
+        margin: 0 0 16px 0;
+    }
+
+    .vid-info{
+        margin: 5% 1% 2.5% 0;
+
+    }
+    .vid-btn{
+        width: 50%;
+        margin: 3%;
+
+    }
+
+    .latest-vid{
+        width: 550px;
+    }
+
+    .exp{
+        width: 40%;
+        margin-top: 5%;
+    }
+
+    h3{
+        margin: 0 15%;
+    }
+
+    .head-img{
+        width: 50%;
+    }
+}
