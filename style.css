@@ -54,6 +54,10 @@ body{
     width: 50px;
 }
 
+.nav-a{
+    margin: 0 15px;
+}
+
 ul{
     text-align: center;
 }
