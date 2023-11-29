@@ -101,6 +101,10 @@ h3{
     margin: 7% 2%;
 }
 
+.latest-vid{
+    margin: 0 auto;
+    text-align: center;
+}
 .vid-info{
     margin: 0 20%;
     font-weight: 500;
